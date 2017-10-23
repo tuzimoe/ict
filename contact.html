@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Coding By Mr.Rabbit
+     https://tuzi.moe -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="rabbit,bunny,pets,rabbits,animal,animals,bunnys">
+	<title>We Love Rabbits</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="icon" href="favicon.png" sizes="32x32">
+    <!--[if IE 9]><script src="//cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script><![endif]-->
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+	</head>
+    <body>
+   	<div id="wapper">
+        <nav>
+            <ul>
+            		<li><a href="index.html" title="Home">Home</a></li>
+                	<li><a href="contact.html">Contact</a></li>
+                	<li><a href="gallery.html">Gallery</a></li>
+                	<li><a href="about.html" title="About">About</a></li>
+                    <li><a href="links.html" title="Links">Links</a></li>
+       	  </ul>
+      </nav>
+   	  <center>
+            	<header>
+                	<a href="index.html"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Twemoji_1f430.svg"></a>
+                    <h1>We Loves Rabbit</h1>
+                </header>
+       </center>
+        <main>
+             <aside><center>
+                   <h1>Find us in Auckland</h1>
+                   <p>Queen St 122</p>
+                   <p>Auckland</p>
+                   <p>New Zealand </p>
+                   </center>
+             </aside>
+            </main>
+      </div>
+           <!--!--I already apply the google map api for my github page.But it will not woring on localhost.-->   
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -36.848, lng: 174.762};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+		var marker = new google.maps.Marker({position:uluru});
+		marker.setMap(map);
+		var infowindow = new google.maps.InfoWindow({
+    	content: "We loves rabbit!"
+ 		 });
+  		infowindow.open(map,marker);
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCATI7kTordOj1q54KRyhLeBQj-ADH-wGw&callback=initMap">
+    </script><br><br><br><br>
+        <div class="footer">Friend Links: <a href="https://www.spcaauckland.org.nz/">SPCA</a><br>Copyright 2017 <a href="https://rabb.ga/en/">Mr.Rabbit</a></div>
+    </body>
+</html>

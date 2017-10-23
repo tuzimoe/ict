@@ -1,0 +1,252 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+/* CSS Document */
+body {
+	font-family: 'Capriola', sans-serif;
+	padding-top: 0px;
+	margin: 0px;
+    background-color:#9ACD32
+}
+a {
+	boder:0;
+	text-decoration: none;
+}
+img{
+	boder:0;
+}
+a.link {
+	boder:none;
+	color: #FBF;
+	text-decoration:none;
+}
+a.visited {
+	color: #FF7676;
+	text-decoration: none;
+}
+a.img {
+	border-width: 0px;
+	boder-style: none;
+	display: inline-block;
+}
+#wrapper {
+	padding: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+main {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+header {
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 100%;
+}
+h1 {
+	font-size: 2.3em;
+	marge: 0px;
+	padding: 0px;
+}
+nav {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: block;
+}
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	width: 100%;
+	list-style:none;
+}
+nav ul li {
+	display: inline;
+	width: 300px;
+	height: 35px;
+}
+nav ul li a {
+	margin: 0px;
+	padding-top:5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	font-size: 20px;
+	text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#left {
+	margin: 0px;
+	padding: 0px;
+	float:left;
+	width: 300px;
+	background-color:#BBF17C;
+	height: 550px;
+}
+#left-about {
+	margin: 0px;
+	padding: 0px;
+	float: none;
+	width: 100%;
+	background-color:#BBF17C;
+	height: 90%;
+}
+aslide {
+	background-color: #222F26;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	width: 200px;
+	color: #F7F3F3;
+	height: 300px
+}
+img {
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	width:auto;
+	height:auto;
+ 	max-width:30%;
+ 	max-height:30%;
+}
+.logo {
+	width:100px;
+	height:100px	
+}
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  font-size: 10px;
+}
+.blur {    
+    -webkit-filter: blur(1px); /* Chrome, Opera */
+       -moz-filter: blur(1px);
+        -ms-filter: blur(1px);    
+            filter: blur(1px);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*img{ 
+ width: 100%; 
+ height: auto;
+ max-width: 100%; 
+ display: block; 
+ background-size: auto
+}
+.main-blur {
+	height:1000px;
+	top: -10px;
+  	left: -10px;
+  	right: 0px;
+	width:auto;
+  	position: absolute;
+  	overflow: hidden;
+	top:auto;
+	left:auto;    
+    -webkit-filter: blur(10px); 
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px) 
+}
+nav {
+	max-width: auto;
+	max-height: 20%;
+}
+#nav-blur {   
+  height: 60px;
+  top: -10px;
+  left: -10px;
+  right: 0px;
+  position: absolute;
+  overflow: hidden;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);    
+  filter: blur(10px);
+  background-image: url("https://photo-1252027024.costj.myqcloud.com/t5.jpg");
+  background-size: cover;
+}
+.nav-blur > li > a {
+    color: #F4AD33;
+    font-weight: 500;
+    text-shadow: none;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+ul li {
+    float: left;
+    text-align: center;
+    line-height: 42px;
+    position: relative;
+}
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-bac {
+    background: none;
+    color: white;
+    border: none;
+}
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+*/
